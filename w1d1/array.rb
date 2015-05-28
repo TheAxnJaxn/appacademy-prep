@@ -66,29 +66,3 @@ class Array
   end
   
 end
-
-
-
-if ([1, 2, 1, 3, 3].my_uniq == [1, 2, 3])
-  p "my_uniq PASSES"
-else
-  p "my_uniq FAILS"
-end
-
-if ([-1, 0, 2, -2, 1].two_sum == [[0, 4], [2, 3]])
-  p "two_sum PASSES"
-else
-  p "two_sum FAILS"
-end
-
-if ([[0, 1, 2], [3, 4, 5],  [6, 7, 8]].my_transpose == [[0, 3, 6], [1, 4, 7], [2, 5, 8]])
-  p "my_transpose PASSES"
-else
-  p "my_transpose FAILS"
-end
-
-if ([44, 30, 24, 32, 35, 30, 40, 38 ].stock_picker == [ 2, 6 ])
-  p "stock_picker PASSES"
-else
-  p "stock_picker FAILS"
-end
