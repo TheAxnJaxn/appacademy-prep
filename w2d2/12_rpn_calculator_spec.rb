@@ -155,24 +155,3 @@ describe RPNCalculator do
   end
 
 end
-
-# (The following is from https://github.com/appacademy/appacademy-prep/tree/master/w2/w2d2)
-#
-#Once you've finished implementing the basic calculator (all specs green), it's time to go back, refactor, and improve it by adding some new functionality. You should be able to invoke it as a script from the command line. You should be able to, optionally, give it a filename on the command line, in which case it opens and reads that file:
-#
-# calculator_instructions.txt
-#5 2 + 4 *
-#
-# command prompt
-#~$ ruby 12_rpn_calculator.rb calculator_instructions.txt
-#28 #=> printed result
-#If no filename argument is passed, it should have a user interface that reads from standard input one operand or operator at a time. If the user hits enter with no operand, the calculator should run and output its result.
-#
-#~$ ruby 12_rpn_calculator.rb
-#5
-#2
-#+
-#4
-#*
-#
-#28 #=> printed result, program ends
