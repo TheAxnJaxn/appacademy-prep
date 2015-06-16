@@ -15,6 +15,16 @@ class Array
     return self
     
   end
+  
+  def my_each2(&code_block)
+    self.count.times { |obj| code_block.call(obj) }
+    return self
+  end
+  
+  def my_each3
+    self.count.times { |obj| yield obj }
+    return self
+  end
 
 end
 
